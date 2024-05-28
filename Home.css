@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(204, 204, 204);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: plum;
+}
+li{
+    float: left;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 50px;
+}
+.p{
+    size: 30px;
+    
+}
+.nd{
+    margin-left: 50px;
+}
+.nd1{
+    margin-left: 800px;
+}
+a:hover{
+    color: rgb(166, 247, 251);
+    /* border: 1px solid blue; */
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    position: fixed;
+}
